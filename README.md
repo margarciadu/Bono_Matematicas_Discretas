@@ -66,11 +66,8 @@ Se realizaron 5 pruebas variando los parámetros para verificar el correcto func
 * **Prueba 2 (Caso grande):** n=15, r=4. Salida: 1365. Muestra que el algoritmo iterativo soporta números grandes de manera rápida y eficiente.
   ![Captura Problema 2 - Prueba 2](imagenes/print_p2_prueba2.png)
 
-* **Prueba 3 (Identidad de simetría):** n=6, r=2. El programa verifica automáticamente que tanto C(6, 2) como C(6, 4) dan como resultado 15, confirmando con éxito la propiedad matemática $C(n, r) = C(n, n-r)$.
+* **Prueba 3 (Fila del Triángulo de Pascal):** Al ingresar n=4, el programa genera y muestra correctamente en una lista la fila 4 completa del triángulo: `[1, 4, 6, 4, 1]`.
   ![Captura Problema 2 - Prueba 3](imagenes/print_p2_prueba3.png)
 
-* **Prueba 4 (Fila del Triángulo de Pascal):** Al ingresar n=4, el programa genera y muestra correctamente en una lista la fila 4 completa del triángulo: `[1, 4, 6, 4, 1]`.
+* **Prueba 4 (Validación de error):** Al ingresar un caso inválido como n=5, r=8 (donde $r > n$). El programa no colapsa, sino que la función `validate_bounds` detecta la anomalía e imprime limpiamente el mensaje: `Boundary error: It must satisfy 0 <= r <= n.`.
   ![Captura Problema 2 - Prueba 4](imagenes/print_p2_prueba4.png)
-
-* **Prueba 5 (Validación de error):** Al ingresar un caso inválido como n=5, r=8 (donde $r > n$). El programa no colapsa, sino que la función `validate_bounds` detecta la anomalía e imprime limpiamente el mensaje: `Boundary error: It must satisfy 0 <= r <= n.`.
-  ![Captura Problema 2 - Prueba 5](imagenes/print_p2_prueba5.png)
