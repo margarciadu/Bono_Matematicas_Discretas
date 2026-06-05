@@ -5,10 +5,10 @@
 Este repositorio contiene la solución a dos problemas generales de conteo
 
 ## Instrucciones de ejecución
-Para probar los algoritmos, debes tener instalado Python.
-1. Abre una terminal o consola de comandos.
-2. Navega hasta la carpeta donde descargaste estos archivos.
-3. Ejecuta los programas usando los comandos:
+Para probar los algoritmos, se debe tener instalado Python.
+1. Abrir una terminal o consola de comandos.
+2. Dirigirse hasta la carpeta donde estan descargados estos archivos.
+3. Ejecutar los programas usando los comandos:
    - `python permutaciones.py`
    - `python combinaciones.py` 
 
