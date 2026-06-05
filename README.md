@@ -2,7 +2,7 @@
 
 **Nombre:** Mariana Garcia
 
-Este repositorio contiene la solución a dos problemas generales de conteo, cumpliendo con la traducción del razonamiento matemático a herramientas computacionales. Se incluye el código fuente, explicaciones y evidencias de pruebas.
+Este repositorio contiene la solución a dos problemas generales de conteo
 
 ## Instrucciones de ejecución
 Para probar los algoritmos, debes tener instalado Python.
