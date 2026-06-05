@@ -10,7 +10,7 @@ Para probar los algoritmos, debes tener instalado Python.
 2. Navega hasta la carpeta donde descargaste estos archivos.
 3. Ejecuta los programas usando los comandos:
    - `python permutaciones.py`
-   - `python combinaciones.py`
+   - `python combinaciones.py` 
 
 ---
 
